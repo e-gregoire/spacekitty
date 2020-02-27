@@ -1,0 +1,57 @@
+.space {
+    background-image: url("space.jpg");
+    background-color: #cccccc;
+    background-size: 1300px 800px;
+    position: relative;
+
+
+}
+
+h1 {
+    display: inline-block;
+    position:fixed;
+    font-size:30px;
+    color:white;
+
+} 
+
+#theo {
+    display: inline-block;
+    width:30%;
+    padding:0px;
+    position:absolute;
+    float:left;
+    
+
+
+}
+
+#theo {
+    width:30%;
+    position:absolute;
+    float:right;
+    animation-name: flying;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-delay: 1s;
+    
+}
+
+
+
+@keyframes flying {
+  
+  0%   {transform: translate(-2em,0em) rotate(0deg);}
+  
+  25%  {transform: translate(0em, -10em)rotate(360deg);}
+ 
+  50%  {transform: translate(20em, 10em)rotate(120deg);}
+  
+  75%  {transform: translate(50em, -10em)rotate(180deg);}
+ 
+  100% {transform: translate(-2em, 0em)rotate(120deg);}
+   
+    
+}
+
